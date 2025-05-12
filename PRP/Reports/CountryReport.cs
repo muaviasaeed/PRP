@@ -1,6 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 
-namespace PRP.Reports  
+namespace PRP.Reports
 {
     public static class CountryReport
     {

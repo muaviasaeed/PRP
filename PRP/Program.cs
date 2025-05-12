@@ -20,7 +20,7 @@ namespace PRP
                 {
                     Console.WriteLine("\n===== MAIN MENU =====");
                     Console.WriteLine("1. World Countries Report");
-                    Console.WriteLine("2. World Cities Report");  
+                    Console.WriteLine("2. World Cities Report");
                     Console.WriteLine("3. Exit");
                     Console.Write("Select option: ");
 
@@ -31,7 +31,7 @@ namespace PRP
                             CountryReport.GenerateWorldReport(connection);
                             break;
                         case "2":
-                            CityReport.GenerateWorldReport(connection);  
+                            CityReport.GenerateWorldReport(connection);
                             break;
                         case "3":
                             Environment.Exit(0);

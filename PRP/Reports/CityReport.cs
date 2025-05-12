@@ -2,7 +2,7 @@
 
 namespace PRP.Reports
 {
-    public static class CityReport  
+    public static class CityReport
     {
         public static void GenerateWorldReport(MySqlConnection connection)
         {
