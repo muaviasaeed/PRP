@@ -1,0 +1,15 @@
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\bin\Debug\net9.0\PopulationApp.exe
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\bin\Debug\net9.0\PopulationApp.deps.json
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\bin\Debug\net9.0\PopulationApp.runtimeconfig.json
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\bin\Debug\net9.0\PopulationApp.dll
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\bin\Debug\net9.0\PopulationApp.pdb
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\PopulationApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\PopulationApp.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\PopulationApp.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\PopulationApp.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\PopulationApp.sourcelink.json
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\PopulationApp.dll
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\refint\PopulationApp.dll
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\PopulationApp.pdb
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\PopulationApp.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\PopulationReportingSystem\PRP\src\PopulationApp\obj\Debug\net9.0\ref\PopulationApp.dll
