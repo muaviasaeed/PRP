@@ -14,7 +14,7 @@ namespace PRP
             {
                 using var connection = db.GetConnection();
                 connection.Open();
-                Console.WriteLine("✅ Database connection successful!");
+                Console.WriteLine(" Database connection successful!");
 
                 while (true)
                 {
@@ -44,7 +44,7 @@ namespace PRP
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"❌ Error: {ex.Message}");
+                Console.WriteLine($" Error: {ex.Message}");
             }
         }
     }
