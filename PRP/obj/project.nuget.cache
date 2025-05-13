@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/m3rwpagxVRH1od4Tx5+ubBAkkz64gqr3kPYFoxZpmfT8hA5Ri/pjKTzvXapehWpCVGzDqnC0mm7H3R7lO8zbA==",
+  "success": true,
+  "projectFilePath": "/Users/macbook/Desktop/PRP/PRP/PRP.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/microsoft.netcore.app.runtime.linux-arm64/7.0.20/microsoft.netcore.app.runtime.linux-arm64.7.0.20.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-arm64/7.0.20/microsoft.aspnetcore.app.runtime.linux-arm64.7.0.20.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.netcore.app.host.linux-arm64/7.0.20/microsoft.netcore.app.host.linux-arm64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
