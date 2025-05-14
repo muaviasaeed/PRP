@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/macbook/Desktop/PRP/PRP/PRP.csproj": {}
   },
   "projects": {
@@ -25,6 +26,34 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+=======
+    "C:\\CS Projects\\PRP\\PRP\\PRP.csproj": {}
+  },
+  "projects": {
+    "C:\\CS Projects\\PRP\\PRP\\PRP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CS Projects\\PRP\\PRP\\PRP.csproj",
+        "projectName": "PRP",
+        "projectPath": "C:\\CS Projects\\PRP\\PRP\\PRP.csproj",
+        "packagesPath": "C:\\Users\\city c\\.nuget\\packages\\",
+        "outputPath": "C:\\CS Projects\\PRP\\PRP\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\city c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+>>>>>>> origin/Main-Character
             "projectReferences": {}
           }
         },
@@ -35,14 +64,30 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "net7.0": {
           "targetAlias": "net7.0",
+=======
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            }
+          },
+>>>>>>> origin/Main-Character
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
+<<<<<<< HEAD
             "net48",
             "net481"
           ],
@@ -62,17 +107,27 @@
               "version": "[7.0.20, 7.0.20]"
             }
           ],
+=======
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+>>>>>>> origin/Main-Character
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
         "linux-arm64": {
           "#import": []
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+>>>>>>> origin/Main-Character
         }
       }
     }

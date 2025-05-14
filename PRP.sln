@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRP", "PRP\PRP.csproj", "{A28612D5-9FE2-C5B3-F204-178832131A62}"
+=======
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRP", "PRP\PRP.csproj", "{C77DF66D-72DD-408F-97BF-8BFD63204CB3}"
+>>>>>>> origin/Main-Character
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{A28612D5-9FE2-C5B3-F204-178832131A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A28612D5-9FE2-C5B3-F204-178832131A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A28612D5-9FE2-C5B3-F204-178832131A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A28612D5-9FE2-C5B3-F204-178832131A62}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{C77DF66D-72DD-408F-97BF-8BFD63204CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77DF66D-72DD-408F-97BF-8BFD63204CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77DF66D-72DD-408F-97BF-8BFD63204CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77DF66D-72DD-408F-97BF-8BFD63204CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> origin/Main-Character
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {2608E056-EDB3-433E-869D-F01D62544625}
+=======
+		SolutionGuid = {E1AD639C-103C-43C7-AC6C-1C9AEAB5B2F8}
+>>>>>>> origin/Main-Character
 	EndGlobalSection
 EndGlobal
