@@ -6,3 +6,8 @@ obj/
 *.tmp
 .vscode/
 .git/
+# .NET build artifacts
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
