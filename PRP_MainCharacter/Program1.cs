@@ -17,6 +17,7 @@ namespace PopulationApp
                 Console.WriteLine("2. View top-N countries by population");
                 Console.WriteLine("3. View all cities by population");
                 Console.WriteLine("4. View top-N cities by population");
+                Console.WriteLine("5. View all capital cities by population"); // <-- Add this line
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -42,6 +43,11 @@ namespace PopulationApp
                     case "4":
                         TopNCityReport report4 = new TopNCityReport();
                         report4.GetTopNCitiesByPopulation();
+                        break;
+
+                    case "5":
+                        CapitalCityReport report5 = new CapitalCityReport();
+                        report5.GetCapitalCitiesByPopulation();
                         break;
 
                     case "0":
