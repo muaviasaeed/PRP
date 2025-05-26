@@ -6,7 +6,7 @@ namespace PopulationApp
     public class Database
     {
         private string connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING") 
-            ?? "server=localhost;user=root;password=yourpassword;database=yourdatabase";
+            ?? "server=localhost;user=root;password=123456789;database=";
 
         public MySqlConnection GetConnection()
         {
