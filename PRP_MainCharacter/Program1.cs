@@ -17,7 +17,8 @@ namespace PopulationApp
                 Console.WriteLine("2. View top-N countries by population");
                 Console.WriteLine("3. View all cities by population");
                 Console.WriteLine("4. View top-N cities by population");
-                Console.WriteLine("5. View all capital cities by population"); // <-- Add this line
+                Console.WriteLine("5. View all capital cities by population");
+                Console.WriteLine("6. View all capital cities in a continent by population");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -50,13 +51,20 @@ namespace PopulationApp
                         report5.GetCapitalCitiesByPopulation();
                         break;
 
+                    case "6":
+                        Console.Write("Enter continent: ");
+                        string continent = Console.ReadLine();
+                        CapitalCityReport report6 = new CapitalCityReport();
+                        report6.GetCapitalCitiesByContinent(continent);
+                        break;
+
                     case "0":
-                        Console.WriteLine("Exiting... 👋");
+                        Console.WriteLine("Exiting... ");
                         exit = true;
                         break;
 
                     default:
-                        Console.WriteLine("❌ Invalid choice. Please try again.");
+                        Console.WriteLine("Invalid choice. Please try again.");
                         break;
                 }
 
