@@ -9,6 +9,7 @@ namespace PopulationApp
         {
             PopulationByCountry report = new PopulationByCountry();
             report.GetCountriesByPopulation();
+            Console.ReadKey();
         }
     }
 }
