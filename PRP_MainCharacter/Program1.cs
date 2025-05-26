@@ -20,6 +20,7 @@ namespace PopulationApp
                 Console.WriteLine("5. View all capital cities by population");
                 Console.WriteLine("6. View all capital cities in a continent by population");
                 Console.WriteLine("7. View all capital cities in a region by population");
+                Console.WriteLine("8. View top-N capital cities by population");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -64,6 +65,19 @@ namespace PopulationApp
                         string region = Console.ReadLine();
                         CapitalCityReport report7 = new CapitalCityReport();
                         report7.GetCapitalCitiesByRegion(region);
+                        break;
+
+                    case "8":
+                        Console.Write("Enter N: ");
+                        if (int.TryParse(Console.ReadLine(), out int n))
+                        {
+                            CapitalCityReport report8 = new CapitalCityReport();
+                            report8.GetTopNCapitalCitiesByPopulation(n);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid number.");
+                        }
                         break;
 
                     case "0":
