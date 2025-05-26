@@ -1,0 +1,6 @@
+C:\Users\LENOVO\Source\Repos\PRP\PRP_MainCharacter\obj\Debug\net6.0\PRP1.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Source\Repos\PRP\PRP_MainCharacter\obj\Debug\net6.0\PRP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Source\Repos\PRP\PRP_MainCharacter\obj\Debug\net6.0\PRP1.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Source\Repos\PRP\PRP_MainCharacter\obj\Debug\net6.0\PRP1.AssemblyInfo.cs
+C:\Users\LENOVO\Source\Repos\PRP\PRP_MainCharacter\obj\Debug\net6.0\PRP1.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Source\Repos\PRP\PRP_MainCharacter\obj\Debug\net6.0\PRP1.sourcelink.json

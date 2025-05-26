@@ -1,7 +1,7 @@
 using MySql.Data.MySqlClient;
 using System;
 
-namespace PopulatioApp
+namespace PopulationApp
 {
     class Database
     {
