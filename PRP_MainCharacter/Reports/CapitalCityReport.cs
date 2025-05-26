@@ -9,7 +9,6 @@ namespace PopulationApp
 
         public CapitalCityReport()
         {
-            
         }
 
         public void GetCapitalCitiesByPopulation()
@@ -18,7 +17,7 @@ namespace PopulationApp
             if (conn == null) return;
 
             string sql = @"
-                SELECT city.Name AS CapitalName, country.Name AS CountryName, city.Population
+                SELECT city.Name AS Name, country.Name AS Country, city.Population
                 FROM city
                 JOIN country ON city.ID = country.Capital
                 ORDER BY city.Population DESC";
@@ -26,15 +25,13 @@ namespace PopulationApp
             using MySqlCommand cmd = new MySqlCommand(sql, conn);
             using MySqlDataReader reader = cmd.ExecuteReader();
 
-            Console.WriteLine($"{"Capital",-20} {"Country",-25} {"Population",-12}");
-            Console.WriteLine(new string('-', 60));
+            Console.WriteLine($"{"Name",-25} {"Country",-25} {"Population",-12}");
+            Console.WriteLine(new string('-', 65));
 
             while (reader.Read())
             {
-                Console.WriteLine($"{reader["CapitalName"],-20} {reader["CountryName"],-25} {reader["Population"],-12}");
+                Console.WriteLine($"{reader["Name"],-25} {reader["Country"],-25} {reader["Population"],-12}");
             }
-
-
         }
 
         public void GetCapitalCitiesByContinent(string continent)
@@ -43,7 +40,7 @@ namespace PopulationApp
             if (conn == null) return;
 
             string sql = @"
-                SELECT city.Name AS CapitalName, country.Name AS CountryName, city.Population
+                SELECT city.Name AS Name, country.Name AS Country, city.Population
                 FROM city
                 JOIN country ON city.ID = country.Capital
                 WHERE country.Continent = @continent
@@ -53,12 +50,12 @@ namespace PopulationApp
             cmd.Parameters.AddWithValue("@continent", continent);
             using MySqlDataReader reader = cmd.ExecuteReader();
 
-            Console.WriteLine($"{"Capital",-20} {"Country",-25} {"Population",-12}");
-            Console.WriteLine(new string('-', 60));
+            Console.WriteLine($"{"Name",-25} {"Country",-25} {"Population",-12}");
+            Console.WriteLine(new string('-', 65));
 
             while (reader.Read())
             {
-                Console.WriteLine($"{reader["CapitalName"],-20} {reader["CountryName"],-25} {reader["Population"],-12}");
+                Console.WriteLine($"{reader["Name"],-25} {reader["Country"],-25} {reader["Population"],-12}");
             }
         }
 
@@ -68,7 +65,7 @@ namespace PopulationApp
             if (conn == null) return;
 
             string sql = @"
-                SELECT city.Name AS CapitalName, country.Name AS CountryName, city.Population
+                SELECT city.Name AS Name, country.Name AS Country, city.Population
                 FROM city
                 JOIN country ON city.ID = country.Capital
                 WHERE country.Region = @region
@@ -78,12 +75,12 @@ namespace PopulationApp
             cmd.Parameters.AddWithValue("@region", region);
             using MySqlDataReader reader = cmd.ExecuteReader();
 
-            Console.WriteLine($"{"Capital",-20} {"Country",-25} {"Population",-12}");
-            Console.WriteLine(new string('-', 60));
+            Console.WriteLine($"{"Name",-25} {"Country",-25} {"Population",-12}");
+            Console.WriteLine(new string('-', 65));
 
             while (reader.Read())
             {
-                Console.WriteLine($"{reader["CapitalName"],-20} {reader["CountryName"],-25} {reader["Population"],-12}");
+                Console.WriteLine($"{reader["Name"],-25} {reader["Country"],-25} {reader["Population"],-12}");
             }
         }
 
@@ -93,7 +90,7 @@ namespace PopulationApp
             if (conn == null) return;
 
             string sql = @"
-                SELECT city.Name AS CapitalName, country.Name AS CountryName, city.Population
+                SELECT city.Name AS Name, country.Name AS Country, city.Population
                 FROM city
                 JOIN country ON city.ID = country.Capital
                 ORDER BY city.Population DESC
@@ -103,12 +100,12 @@ namespace PopulationApp
             cmd.Parameters.AddWithValue("@n", n);
             using MySqlDataReader reader = cmd.ExecuteReader();
 
-            Console.WriteLine($"{"Capital",-20} {"Country",-25} {"Population",-12}");
-            Console.WriteLine(new string('-', 60));
+            Console.WriteLine($"{"Name",-25} {"Country",-25} {"Population",-12}");
+            Console.WriteLine(new string('-', 65));
 
             while (reader.Read())
             {
-                Console.WriteLine($"{reader["CapitalName"],-20} {reader["CountryName"],-25} {reader["Population"],-12}");
+                Console.WriteLine($"{reader["Name"],-25} {reader["Country"],-25} {reader["Population"],-12}");
             }
         }
     }
