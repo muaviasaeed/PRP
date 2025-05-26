@@ -15,6 +15,8 @@ namespace PopulationApp
                 Console.WriteLine("===== Population Reporting System =====");
                 Console.WriteLine("1. View all countries by population");
                 Console.WriteLine("2. View top-N countries by population");
+                Console.WriteLine("3. View all cities by population");
+
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -30,6 +32,11 @@ namespace PopulationApp
                     case "2":
                         TopNCountryReport report2 = new TopNCountryReport();
                         report2.GetTopNCountriesByPopulation();
+                        break;
+
+                    case "3":
+                        CityReport report3 = new CityReport();
+                        report3.GetCitiesByPopulation();
                         break;
 
                     case "0":
