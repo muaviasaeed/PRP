@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Source\\Repos\\PRP\\PRP_MainCharacter\\PRP1.csproj": {}
+    "C:\\Users\\LENOVO\\source\\repos\\PRP\\PRP_MainCharacter\\PRP1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Source\\Repos\\PRP\\PRP_MainCharacter\\PRP1.csproj": {
+    "C:\\Users\\LENOVO\\source\\repos\\PRP\\PRP_MainCharacter\\PRP1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Source\\Repos\\PRP\\PRP_MainCharacter\\PRP1.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\PRP\\PRP_MainCharacter\\PRP1.csproj",
         "projectName": "PRP1",
-        "projectPath": "C:\\Users\\LENOVO\\Source\\Repos\\PRP\\PRP_MainCharacter\\PRP1.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\source\\repos\\PRP\\PRP_MainCharacter\\PRP1.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Source\\Repos\\PRP\\PRP_MainCharacter\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\source\\repos\\PRP\\PRP_MainCharacter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
