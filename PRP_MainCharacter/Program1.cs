@@ -1,12 +1,13 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 
 namespace PopulationApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            PopulatioByCountry report = new PopulatioByCountry();
+            PopulationByCountry report = new PopulationByCountry();
             report.GetCountriesByPopulation();
         }
     }
