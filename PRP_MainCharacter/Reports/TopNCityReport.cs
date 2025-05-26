@@ -6,9 +6,7 @@ namespace PopulationApp
     class TopNCityReport
     {
         private Database db = new Database();
-        /// <summary>
-        /// Displays top N cities in the world by population.
-        /// </summary>
+      
         public void GetTopNCitiesByPopulation()
         {
             Console.Write("Enter the number of top cities to display (N): ");
@@ -22,27 +20,25 @@ namespace PopulationApp
             if (conn != null)
             {
                 string sql = @"
-        SELECT city.Name AS CityName, country.Name AS CountryName, city.District, city.Population
-        FROM city
-        JOIN country ON city.CountryCode = country.Code
-        ORDER BY city.Population DESC
-        LIMIT @limit";
+                    SELECT city.Name AS Name, country.Name AS Country, city.District, city.Population
+                    FROM city
+                    JOIN country ON city.CountryCode = country.Code
+                    ORDER BY city.Population DESC
+                    LIMIT @n";
 
                 using MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@limit", n);
+                cmd.Parameters.AddWithValue("@n", n);
 
                 using MySqlDataReader reader = cmd.ExecuteReader();
 
                 Console.WriteLine($"\nTop {n} Cities by Population:");
-                Console.WriteLine($"{"City",-20} {"Country",-20} {"District",-20} {"Population",-12}");
-                Console.WriteLine(new string('-', 75));
+                Console.WriteLine($"{"Name",-25} {"Country",-25} {"District",-20} {"Population",-12}");
+                Console.WriteLine(new string('-', 85));
 
                 while (reader.Read())
                 {
-                    Console.WriteLine($"{reader["CityName"],-20} {reader["CountryName"],-20} {reader["District"],-20} {reader["Population"],-12}");
+                    Console.WriteLine($"{reader["Name"],-25} {reader["Country"],-25} {reader["District"],-20} {reader["Population"],-12}");
                 }
-
-                conn.Close();
             }
         }
     }

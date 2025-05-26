@@ -6,9 +6,7 @@ namespace PopulationApp
     class TopNCountryReport
     {
         private Database db = new Database();
-        /// <summary>
-        ///  Display Country Report for Top N Countries by Population
-        ///  </summary>
+     
         public void GetTopNCountriesByPopulation()
         {
             Console.Write("Enter the number of top countries to display (N): ");
