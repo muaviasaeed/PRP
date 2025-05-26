@@ -100,6 +100,7 @@ namespace PopulationApp
             cmd.Parameters.AddWithValue("@n", n);
             using MySqlDataReader reader = cmd.ExecuteReader();
 
+            Console.WriteLine($"\nTop {n} Capital Cities by Population:");
             Console.WriteLine($"{"Name",-25} {"Country",-25} {"Population",-12}");
             Console.WriteLine(new string('-', 65));
 
