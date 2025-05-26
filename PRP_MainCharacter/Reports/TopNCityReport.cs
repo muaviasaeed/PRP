@@ -6,9 +6,7 @@ namespace PopulationApp
     class TopNCityReport
     {
         private Database db = new Database();
-        /// <summary>
-        /// Displays top N cities in the world by population.
-        /// </summary>
+      
         public void GetTopNCitiesByPopulation()
         {
             Console.Write("Enter the number of top cities to display (N): ");

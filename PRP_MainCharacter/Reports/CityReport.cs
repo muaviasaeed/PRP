@@ -7,9 +7,6 @@ namespace PopulationApp
     {
         private Database db = new Database();
 
-        /// <summary>
-        /// Displays all cities in the world ordered by population.
-        /// </summary>
         public void GetCitiesByPopulation()
         {
             using var conn = db.GetConnection();
