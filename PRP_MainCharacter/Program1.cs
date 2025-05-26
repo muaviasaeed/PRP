@@ -19,6 +19,7 @@ namespace PopulationApp
                 Console.WriteLine("4. View top-N cities by population");
                 Console.WriteLine("5. View all capital cities by population");
                 Console.WriteLine("6. View all capital cities in a continent by population");
+                Console.WriteLine("7. View all capital cities in a region by population");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -56,6 +57,13 @@ namespace PopulationApp
                         string continent = Console.ReadLine();
                         CapitalCityReport report6 = new CapitalCityReport();
                         report6.GetCapitalCitiesByContinent(continent);
+                        break;
+
+                    case "7":
+                        Console.Write("Enter region: ");
+                        string region = Console.ReadLine();
+                        CapitalCityReport report7 = new CapitalCityReport();
+                        report7.GetCapitalCitiesByRegion(region);
                         break;
 
                     case "0":
